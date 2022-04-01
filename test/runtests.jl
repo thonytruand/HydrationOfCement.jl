@@ -1,6 +1,8 @@
-using HydrationOfCement
+#using HydrationOfCement
 using Test
 
+
 @testset "HydrationOfCement.jl" begin
-    # Write your tests here.
+    @test HydrationOfCement.coolFunc(2) == 4
+
 end
