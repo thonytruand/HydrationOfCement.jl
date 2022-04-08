@@ -1,4 +1,4 @@
-using Documenter, HydrationOfCement
+using Documenter#, HydrationOfCement
  
 makedocs(modules=[HydrationOfCement],
         doctest=true)
